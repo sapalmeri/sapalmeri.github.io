@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+
+html {
+  background-color: #FDF4E3;
+  font-family: Abel, sans-serif;
+  color: #3D3D3D;
+}
+
+.title {
+  padding-left: 40px;
+}
+
+.row button {
+  font-family: Abel, sans-serif;
+  color: #FDF4E3;
+  border: none;
+  background-color: #CC5500;
+  font-size: 24px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.row button:hover {
+  opacity: .7;
+  color: black;
+}
+
+.home {
+  margin: 25px;
+}
+
+.row {
+  display: flex;
+  margin-top: 75px;
+  justify-content: center;
+}
+
+.navbar button {
+  font-family: Abel, sans-serif;
+  color: #3D3D3D;
+  border: none;
+  background-color: transparent;
+  font-size: 22px;
+  width: 175px;
+  height: 65px;
+}
+
+.navbar button:hover {
+  background-image: url("./transparentbutton.png");
+  background-size: cover;
+  color: #224A1B;
+}
+
+.navbar ul {
+  list-style-type: none;
+  font-size: 18px;
+  text-align: left; 
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.navbar li:first-child {
+  flex: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.title {
+  flex: 200px;
+}
+
+.social {
+  float: right;
+  padding-right: 65px;
+}
+
+.fa {
+  padding-left: 25px;
+}
+
+.aboutme {
+  display: flex;
+  align-items: center;
+}
+
+.aboutbody {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+}
+
+.paragraph {
+  float: right;
+  font-size: 18px;
+  width: 500px;
+  text-align: left;
+  padding-left: 325px;
+}
+
+#portrait {
+  background: #fff;
+  padding: 1rem;
+  padding-bottom: 4rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+}
