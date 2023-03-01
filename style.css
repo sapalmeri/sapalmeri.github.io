@@ -119,3 +119,15 @@ a {
   padding-bottom: 4rem;
   box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
 }
+
+.learningpara {
+  float: right;
+  padding-top: 50px;
+  padding-right: 100px;
+  width: 600px;
+  line-height: 25px;
+}
+
+.container {
+border-radius: 50%;
+}
